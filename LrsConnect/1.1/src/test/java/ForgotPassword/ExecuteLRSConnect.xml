@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="LRS1.1">
+  <test name="LRSFunctions" preserve-order="true">
+    <classes>
+ <class name="ForgotPassword.Functions" >
+        <methods>
+ <include name="ForgotPasswordTestCases" />
+   <include name="GoBack" />
+   <include name="resetButton" />
+   <include name="EmailField" />
+   <include name="EmailConfirmation" />
+    </methods>
+    </class>
+    </classes>
+      </test>
+     
+      
+      <test name="LRSLocation" preserve-order="true">
+    <classes>
+     <class name="ForgotPassword.AddLocation" >
+        <methods>
+   
+ <include name="addLocation" />
+ <include name="deleteLocation" />
+ </methods>
+ </class>
+     </classes>
+      </test>
+      <test name="LRSUser" preserve-order="true">
+    <classes>
+     <class name="ForgotPassword.AddUsers" >
+        <methods>
+    <include name="addUsers" />    
+ <include name="checkUserAddition" />
+ <include name="changePass" />
+ <include name="delUser" />
+ <include name="confirmDelUser" />
+ </methods>
+ </class>
+     </classes>
+      </test>
+      
+       <test name="LRSLogin" preserve-order="true">
+    <classes>
+     <class name="ForgotPassword.LoginTest" >
+        <methods>
+    <include name="Login" />    
+ </methods>
+ </class>
+     </classes>
+      </test>
+      <test name="LRSTableTracker" preserve-order="true">
+    <classes>
+     <class name="ForgotPassword.TableTracker" >
+        <methods>
+    <include name="searchForCreatedLocation" />    
+ </methods>
+ </class>
+     </classes>
+      </test>
+       
+         
+      </suite>
